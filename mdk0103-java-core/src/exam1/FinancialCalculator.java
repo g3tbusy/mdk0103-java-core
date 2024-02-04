@@ -33,7 +33,7 @@ public class FinancialCalculator
         switch(choice)
         {
             case 1:
-                enterExpensesForDay();
+                enterExpensesByDay();
                 break;
 
             case 2:
@@ -45,7 +45,7 @@ public class FinancialCalculator
                 break;
 
             case 4:
-                exchangeRate();
+                currencyExchanger();
                 break;
 
             case 5:
@@ -59,7 +59,7 @@ public class FinancialCalculator
         }
     }
 
-    private static void enterExpensesForDay()
+    private static void enterExpensesByDay()
     {
         BigDecimal tempExpense; // Переменная с введенным значением трат в день для хранения данных до проверки записи данных в этот день
         int choice = 0; // Перезаписывается при повторной итерации после выбора "Ввести трату за другой день"
@@ -71,7 +71,7 @@ public class FinancialCalculator
         while(day < 1 || day > 30) // Проверка на правильность написания дня
         {
             System.out.println("Выбран неверный день.");
-            enterExpensesForDay();
+            enterExpensesByDay();
         }
 
         System.out.print("Введите трату за " + day + "-е число: ");
@@ -107,7 +107,7 @@ public class FinancialCalculator
 
         if(choice == 1)
         {
-            enterExpensesForDay();
+            enterExpensesByDay();
         }
 
         else
@@ -122,15 +122,6 @@ public class FinancialCalculator
        {
            System.out.println(i + 1 + " День" + " - " + expensesForDays[i] + "rub");
        }
-
-//       BigDecimal sumExpenses = new BigDecimal(0);
-
-//       for(int i = 0; i < expensesForDays.length; i++)
-//       {
-//         sumExpenses = sumExpenses.add(expensesForDays[i]);
-//       }
-
-//       System.out.println("Итого - " + sumExpenses + " rub");
        mainMenu();
     }
 
@@ -150,7 +141,7 @@ public class FinancialCalculator
         mainMenu();
     }
 
-    private static void exchangeRate()
+    private static void currencyExchanger()
     {
         int choice;
         BigDecimal USD = new BigDecimal("90.66");
@@ -165,7 +156,7 @@ public class FinancialCalculator
         switch(choice)
         {
             default:
-                exchangeRate();
+                currencyExchanger();
                 break;
 
             case 1:
@@ -173,6 +164,7 @@ public class FinancialCalculator
                 {
                     System.out.println(i + 1 + "День " + " - " + expensesForDays[i].divide(USD, 2, BigDecimal.ROUND_HALF_UP) + "usd");
                 }
+
                 mainMenu();
                 break;
 
@@ -181,6 +173,7 @@ public class FinancialCalculator
                 {
                     System.out.println(i + 1 + "День " + " - " + expensesForDays[i].divide(EUR, 2, BigDecimal.ROUND_HALF_UP) + "eur");
                 }
+
                 mainMenu();
                 break;
 
@@ -189,6 +182,7 @@ public class FinancialCalculator
                 {
                     System.out.println(i + 1 + "День " + " - " + expensesForDays[i].divide(CNY, 2, BigDecimal.ROUND_HALF_UP) + "cny");
                 }
+
                 mainMenu();
                 break;
 
