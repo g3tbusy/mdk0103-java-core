@@ -16,6 +16,7 @@ public class FinancialCalculator
         }
         mainMenu();
     }
+
     private static void mainMenu()
     {
         int choice;
