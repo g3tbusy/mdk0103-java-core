@@ -26,7 +26,7 @@ public class FinancialCalculator
         System.out.println("[2] Просмотреть список трат за месяц");
         System.out.println("[3] Самая большая сумма расхода за месяц");
         System.out.println("[4] Конвертировать список трат за месяц в другую валюту");
-        System.out.print("[5] Выход из программы\nВыбор: ");
+        System.out.print("[0] Выход из программы\nВыбор: ");
 
         choice = input.nextInt();
 
@@ -48,7 +48,7 @@ public class FinancialCalculator
                 currencyExchanger();
                 break;
 
-            case 5:
+            case 0:
                 System.out.println("\nЗавершение работы, до свидания!");
 
                 System.exit(0);
