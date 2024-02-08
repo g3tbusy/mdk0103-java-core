@@ -1,5 +1,7 @@
 package javabase.Game;
 
+import java.util.Scanner;
+
 public class Game
 {
     public static void main(String[] args)
@@ -13,6 +15,9 @@ public class Game
 
         King king = new King(100,100);
 
-
+        System.out.println(knight.getType());
+        System.out.println(knight.getGold() + " gold");
+        System.out.println(knight.getDamage() + " damage");
+        System.out.println(knight.getHp() + " hp");
     }
 }
