@@ -1,4 +1,4 @@
-package Game;
+package javabase.Game;
 
 public class King
 {
