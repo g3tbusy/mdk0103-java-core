@@ -1,14 +1,22 @@
 package javabase.Game;
 
-public class King
+class King extends Character
 {
-    private int hp;
     private int gold;
 
-    public King(int hp, int gold)
+    public King(int healthPoints, int attackPoints, int gold)
     {
-        this.hp = hp;
+        super(healthPoints, attackPoints);
         this.gold = gold;
     }
 
+    public void earnGold(int amount)
+    {
+        this.gold += amount;
+    }
+
+    public int getGold()
+    {
+        return gold;
+    }
 }
