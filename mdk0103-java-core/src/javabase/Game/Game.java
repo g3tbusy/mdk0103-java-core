@@ -72,12 +72,12 @@ public class Game
                 }
 
                 enemy.attack(ally);
-                if (!ally.isAlive()) {
+                if (!ally.isAlive())
+                {
                     System.out.println("союзник отхватил люлей");
                 }
             }
         }
-
-        System.out.println("Gold collected by the king: " + king.getGold());
+        System.out.println("золота отнято у короля: " + king.getGold());
     }
 }
