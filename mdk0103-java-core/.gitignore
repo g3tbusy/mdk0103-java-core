@@ -29,3 +29,4 @@ bin/
 .DS_Store
 /.idea/
 /mdk0103-java-core.iml
+/src/javabase/Game/
