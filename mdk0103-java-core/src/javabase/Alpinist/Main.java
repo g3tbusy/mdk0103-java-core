@@ -1,6 +1,7 @@
-package javabase.Climbers;
+package javabase.Alpinist;
 
-import static javabase.Climbers.Mountain.*;
+import static javabase.Alpinist.Mountain.*;
+import static javabase.Alpinist.Group.*;
 
 public class Main
 {
@@ -9,7 +10,7 @@ public class Main
         mainMenu(elbrus, jin, everest);
     }
 
-    private static void addClimber()
+    private static void addAlpinist()
     {
 
     }
@@ -19,7 +20,7 @@ public class Main
         System.out.println("\n---Главное меню---");
         System.out.println("[1] Просмотреть доступные горы");
         System.out.println("[2] Просмотреть список альпинистов");
-        System.out.println("[3] Добавить альпиниста");
+        System.out.println("[3] Зарегестрировать альпиниста");
         System.out.print("Выбор: ");
 
         int choice = input.nextInt();
@@ -40,8 +41,7 @@ public class Main
                 System.out.println("");
 
             case 3:
-
+                addAlpinist(Alpinist alpinist);
         }
     }
-
 }

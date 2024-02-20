@@ -1,12 +1,12 @@
-package javabase.Climbers;
+package javabase.Alpinist;
 
 import java.util.Scanner;
 
 public class Mountain
 {
-    protected String name;
-    protected String country;
-    protected double weight;
+    private static String name;
+    private String country;
+    private double weight;
 
     public Mountain(String name, String country, double weight)
     {
@@ -15,7 +15,7 @@ public class Mountain
         this.weight = weight;
     }
 
-    public String getName()
+    public static String getName()
     {
         return name;
     }

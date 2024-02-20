@@ -1,12 +1,12 @@
-package javabase.Climbers;
+package javabase.Alpinist;
 
-public class Climber
+public class Alpinist
 {
-    protected String name;
-    protected int age;
-    protected String address;
+    private String name;
+    private int age;
+    private String address;
 
-    public Climber(String name, int age, String address)
+    public Alpinist(String name, int age, String address)
     {
         this.name = name;
         this.age = age;
@@ -18,7 +18,7 @@ public class Climber
         return name;
     }
 
-    public void setName(String name)
+    public void setName(String name) // for donate $$$
     {
         this.name = name;
     }
