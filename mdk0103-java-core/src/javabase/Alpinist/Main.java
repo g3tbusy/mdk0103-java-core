@@ -41,7 +41,7 @@ public class Main
                 System.out.println("");
 
             case 3:
-                addAlpinist(Alpinist alpinist);
+
         }
     }
 }
