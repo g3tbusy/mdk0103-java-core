@@ -38,10 +38,19 @@ public class Main
                 mainMenu(elbrus, jin, everest);
 
             case 2:
-                System.out.println("");
-
-            case 3:
-
+                System.out.println("Имя: " + alpinist1.getName() + ". Возраст: " + alpinist1.getAge() + ". Адрес проживания: " + alpinist1.getAddress());
+                System.out.println("Имя: " + alpinist2.getName() + ". Возраст: " + alpinist2.getAge() + ". Адрес проживания: " + alpinist2.getAddress());
+                System.out.println("Имя: " + alpinist3.getName() + ". Возраст: " + alpinist3.getAge() + ". Адрес проживания: " + alpinist3.getAddress());
+                System.out.println("Имя: " + alpinist4.getName() + ". Возраст: " + alpinist4.getAge() + ". Адрес проживания: " + alpinist4.getAddress());
+                mainMenu(elbrus, jin, everest);
+            case 3: // choto tut errorit
+                String tempName = input.nextLine();
+                alpinist4.setName(tempName);
+                int tempAge = input.nextInt();
+                alpinist4.setAge(tempAge);
+                String tempAddress = input.nextLine();
+                alpinist4.setAddress(tempAddress);
+                mainMenu(elbrus, jin, everest);
         }
     }
 }

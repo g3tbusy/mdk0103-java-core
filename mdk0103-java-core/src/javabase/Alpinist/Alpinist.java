@@ -42,4 +42,15 @@ public class Alpinist
     {
         this.address = address;
     }
+
+    public static Alpinist alpinist1 = new Alpinist("Виталий", 27, "Любань");
+    public static Alpinist alpinist2 = new Alpinist("Михаил", 23, "Boston");
+    public static Alpinist alpinist3 = new Alpinist("Андрей", 20, "Мишкино");
+    public static Alpinist alpinist4 = new Alpinist("null", 0, "null");
+    public static Alpinist alpinist5 = new Alpinist("null", 0, "null");
+    public static Alpinist alpinist6 = new Alpinist("null", 0, "null");
+    public static Alpinist alpinist7 = new Alpinist("null", 0, "null");
+    public static Alpinist alpinist8 = new Alpinist("null", 0, "null");
+    public static Alpinist alpinist9 = new Alpinist("null", 0, "null");
+
 }
