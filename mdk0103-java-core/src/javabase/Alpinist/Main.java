@@ -47,7 +47,7 @@ public class Main
                 mainMenu(elbrus, jin, everest);
                 break;
 
-            case 3: // choto tut errorit
+            case 3:
                 System.out.print("Введите имя альпиниста: ");
                 String tempName = input.next();
                 alpinist4.setName(tempName);
