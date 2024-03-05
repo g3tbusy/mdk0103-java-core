@@ -1,18 +1,17 @@
 package javabase.Alpinist;
 
+import java.util.Scanner;
+
 import static javabase.Alpinist.Mountain.*;
 import static javabase.Alpinist.Group.*;
 
 public class Main
 {
+    public static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args)
     {
         mainMenu(elbrus, jin, everest);
-    }
-
-    private static void addAlpinist()
-    {
-
     }
 
     private static void mainMenu(Mountain elbrus, Mountain jin, Mountain everest)
@@ -20,7 +19,7 @@ public class Main
         System.out.println("\n---Главное меню---");
         System.out.println("[1] Просмотреть доступные горы");
         System.out.println("[2] Просмотреть список альпинистов");
-        System.out.println("[3] Зарегzстрировать альпиниста");
+        System.out.println("[3] Зарегистрировать альпиниста");
         System.out.print("Выбор: ");
 
         int choice = input.nextInt();
