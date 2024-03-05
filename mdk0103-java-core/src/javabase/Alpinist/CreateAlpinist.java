@@ -2,6 +2,7 @@ package javabase.Alpinist;
 
 import static javabase.Alpinist.Alpinist.*;
 import static javabase.Alpinist.Main.*;
+import static javabase.Alpinist.Mountain.*;
 
 public class CreateAlpinist
 {
@@ -11,7 +12,7 @@ public class CreateAlpinist
 
     static void addAlpinist()
     {
-        System.out.print("Выберите альпиниста 1 - 9");
+        System.out.print("Выберите альпиниста 1 - 9: ");
         int choice = input.nextInt();
 
         switch(choice)
@@ -172,8 +173,8 @@ public class CreateAlpinist
             default:
                 addAlpinist();
                 break;
-
-            mainmenu();
         }
+
+        Main.mainMenu(elbrus, jin, everest);
     }
 }

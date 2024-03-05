@@ -1,7 +1,5 @@
 package javabase.Alpinist;
 
-import java.util.Scanner;
-
 public class Mountain
 {
     private static String name;
