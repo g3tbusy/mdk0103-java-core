@@ -8,7 +8,7 @@ public class Mountain
 
     public Mountain(String name, String country, double weight)
     {
-        this.name = name;
+        Mountain.name = name;
         this.country = country;
         this.weight = weight;
     }
