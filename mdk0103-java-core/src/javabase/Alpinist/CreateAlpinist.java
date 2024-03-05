@@ -11,7 +11,7 @@ public class CreateAlpinist
 
     private static void addAlpinist()
     {
-        System.out.print("Выберите альпиниста 1-");
+        System.out.print("Выберите альпиниста 1 - 9");
         int choice = input.nextInt();
 
         switch(choice)
