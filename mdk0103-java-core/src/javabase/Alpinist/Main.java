@@ -2,6 +2,7 @@ package javabase.Alpinist;
 
 import java.util.Scanner;
 
+import static javabase.Alpinist.CreateAlpinist.*;
 import static javabase.Alpinist.Mountain.*;
 import static javabase.Alpinist.Group.*;
 
@@ -47,19 +48,7 @@ public class Main
                 break;
 
             case 3:
-                System.out.print("Введите имя альпиниста: ");
-                String tempName = input.next();
-                alpinist4.setName(tempName);
-
-                System.out.print("Введите возраст альпиниста: ");
-                int tempAge = input.nextInt();
-                alpinist4.setAge(tempAge);
-
-                System.out.print("Введите адрес альпиниста: ");
-                String tempAddress = input.next();
-                alpinist4.setAddress(tempAddress);
-
-                mainMenu(elbrus, jin, everest);
+                addAlpinist();
                 break;
 
             default:

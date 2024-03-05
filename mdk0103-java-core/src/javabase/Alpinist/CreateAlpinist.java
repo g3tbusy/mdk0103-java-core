@@ -1,7 +1,7 @@
 package javabase.Alpinist;
 
 import static javabase.Alpinist.Alpinist.*;
-import static javabase.Alpinist.Main.input;
+import static javabase.Alpinist.Main.*;
 
 public class CreateAlpinist
 {
@@ -9,7 +9,7 @@ public class CreateAlpinist
     private static int tempAge;
     private static String tempAddress;
 
-    private static void addAlpinist()
+    static void addAlpinist()
     {
         System.out.print("Выберите альпиниста 1 - 9");
         int choice = input.nextInt();
@@ -172,6 +172,8 @@ public class CreateAlpinist
             default:
                 addAlpinist();
                 break;
+
+            mainmenu();
         }
     }
 }
