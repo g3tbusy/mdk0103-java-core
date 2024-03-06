@@ -70,5 +70,5 @@ public class Main
                 mainMenu(elbrus, jin, everest);
                 break;
         }
-    }123
+    }
 }

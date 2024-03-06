@@ -25,4 +25,4 @@ public class groupJoinCheck
             isJoinOpened3 = false;
         }
     }
-}123
+}
