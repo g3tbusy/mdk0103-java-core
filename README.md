@@ -1,5 +1,4 @@
 # mdk0103 repo by g3tbusy.java
-----
 tg: [@CaroIChristianPoeIL](https://t.me/caroichristianpoeil)
 
 qr tg:
