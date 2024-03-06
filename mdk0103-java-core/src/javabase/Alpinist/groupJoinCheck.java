@@ -1,8 +1,7 @@
 package javabase.Alpinist;
 
 import static javabase.Alpinist.Alpinist.*;
-import static javabase.Alpinist.CreateAlpinist.*;
-import static javabase.Alpinist.Mountain.*;
+
 public class groupJoinCheck
 {
     public static boolean isJoinOpened1 = true;
