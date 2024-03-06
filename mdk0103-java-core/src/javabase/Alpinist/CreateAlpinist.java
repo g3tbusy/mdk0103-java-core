@@ -35,11 +35,11 @@ public class CreateAlpinist
         switch(choice)
         {
             case 2:
-                System.out.print("\nВыберите альпиниста [4 - 6]: ");
+                System.out.print("\nВыберите альпиниста [1 - 3]: ");
                 int choiceAlpinist = input.nextInt();
                     switch(choiceAlpinist)
                     {
-                        case 4:
+                        case 1:
                             System.out.print("Введите имя альпиниста: ");
                             tempName = input.next();
                             alpinist4.setName(tempName);
@@ -56,7 +56,7 @@ public class CreateAlpinist
                             tempAddress = "NULL";
                             break;
 
-                        case 5:
+                        case 2:
                             System.out.print("Введите имя альпиниста: ");
                             tempName = input.next();
                             alpinist5.setName(tempName);
@@ -73,7 +73,7 @@ public class CreateAlpinist
                             tempAddress = "NULL";
                             break;
 
-                        case 6:
+                        case 3:
                             System.out.print("Введите имя альпиниста: ");
                             tempName = input.next();
                             alpinist6.setName(tempName);
@@ -93,11 +93,11 @@ public class CreateAlpinist
                 break;
 
             case 3:
-                System.out.print("\nВыберите альпиниста [7 - 9]: ");
+                System.out.print("\nВыберите альпиниста [1 - 3]: ");
                 choiceAlpinist = input.nextInt();
                 switch(choiceAlpinist)
                 {
-                    case 4:
+                    case 1:
                         System.out.print("Введите имя альпиниста: ");
                         tempName = input.next();
                         alpinist7.setName(tempName);
@@ -114,7 +114,7 @@ public class CreateAlpinist
                         tempAddress = "NULL";
                         break;
 
-                    case 5:
+                    case 2:
                         System.out.print("Введите имя альпиниста: ");
                         tempName = input.next();
                         alpinist8.setName(tempName);
@@ -131,7 +131,7 @@ public class CreateAlpinist
                         tempAddress = "NULL";
                         break;
 
-                    case 6:
+                    case 3:
                         System.out.print("Введите имя альпиниста: ");
                         tempName = input.next();
                         alpinist9.setName(tempName);
