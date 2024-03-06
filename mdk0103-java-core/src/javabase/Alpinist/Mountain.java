@@ -38,5 +38,4 @@ public class Mountain
     public static Mountain elbrus = new Mountain("Эльбрус", "Россия", 5642, 1);
     public static Mountain jin = new Mountain("Цзинь", "Япония", 0.6, 2);
     public static Mountain everest = new Mountain("Эверест","Граница Непала и китайского тибета", 8848, 3);
-
-}
+}123
