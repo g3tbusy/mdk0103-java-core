@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/.idea/
+/mdk0103-java-core.iml
 
 ### Eclipse ###
 .apt_generated
