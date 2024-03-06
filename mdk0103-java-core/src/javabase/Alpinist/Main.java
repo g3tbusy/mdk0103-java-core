@@ -31,9 +31,9 @@ public class Main
         switch(choice)
         {
             case 1:
-                System.out.println("\nНазвание: " + elbrus.getName() + ". Страна: " + elbrus.getCountry() + ". Высота: " + elbrus.getWeight() + "м\n" +
-                        "Название: " + jin.getName() + ". Страна: " + jin.getCountry() + ". Высота: " + jin.getWeight() + "м\n" +
-                        "Название: " + everest.getName() + ". Страна: " + everest.getCountry() + ". Высота: " + everest.getWeight() + "м");
+                System.out.println("\nНазвание: " + elbrus.getName() + ". Страна: " + elbrus.getCountry() + ". Высота: " + elbrus.getWeight() + "м. " + "Группа восхождения: " + elbrus.getGroup() +
+                        "\nНазвание: " + jin.getName() + ". Страна: " + jin.getCountry() + ". Высота: " + jin.getWeight() + "м. " + "Группа восхождения: " + jin.getGroup() +
+                        "\nНазвание: " + everest.getName() + ". Страна: " + everest.getCountry() + ". Высота: " + everest.getWeight() + "м. " + "Группа восхождения: " + everest.getGroup());
                 mainMenu(elbrus, jin, everest);
                 break;
 

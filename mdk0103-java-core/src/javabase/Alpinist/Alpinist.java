@@ -62,4 +62,4 @@ public class Alpinist
     public static Alpinist alpinist8 = new Alpinist(3,"NULL", 0, "NULL");
     public static Alpinist alpinist9 = new Alpinist(3,"NULL", 0, "NULL");
 
-}
+}123
