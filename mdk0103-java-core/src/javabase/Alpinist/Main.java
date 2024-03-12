@@ -12,7 +12,6 @@ public class Main
     public static Scanner input = new Scanner(System.in);
     public static boolean isJoinOpened;
 
-
     public static void main(String[] args)
     {
         mainMenu(elbrus, jin, everest);
