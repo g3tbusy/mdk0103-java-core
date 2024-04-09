@@ -33,13 +33,13 @@ public class FitnessClub
             if (checkAccess(subscription, zone))
             {
                 selectedZone.registerSubscription(subscription);
-                System.out.println(customer.getName() + " " + customer.getSurName() + " успешно посещает " + zone);
+                System.out.println(customer.getName() + " " + customer.getSurName() + " посещает " + zone);
             }
 
             else
 
             {
-                System.out.println("Посещение не возможно для " + customer.getName() + " " + customer.getSurName());
+                System.out.println("Вход запрещен для " + customer.getName() + " " + customer.getSurName());
             }
         }
 
