@@ -17,13 +17,13 @@ public class FitnessClub
 
         switch (zone)
         {
-            case "gym":
+            case "спортзал":
                 selectedZone = gym;
                 break;
-            case "pool":
+            case "бассейн":
                 selectedZone = pool;
                 break;
-            case "group":
+            case "групповые занятия":
                 selectedZone = group;
                 break;
         }

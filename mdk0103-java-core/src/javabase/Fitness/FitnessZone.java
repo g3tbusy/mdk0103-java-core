@@ -16,7 +16,7 @@ public class FitnessZone
         if (count < 20)
         {
             subscriptions[count++] = subscription;
-            System.out.println("Абонемент успешно зарегистрирован в " + name);
+            System.out.println("Абонемент зарегистрирован в " + name);
         }
         else
         {
