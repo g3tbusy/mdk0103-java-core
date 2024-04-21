@@ -1,8 +1,8 @@
 ### IntelliJ IDEA ###
-out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 /.idea/
+/out/
 /mdk0103-java-core.iml
 
 ### Eclipse ###
@@ -29,5 +29,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/.idea/
-/mdk0103-java-core.iml
